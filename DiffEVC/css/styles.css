@@ -1,0 +1,152 @@
+html {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color : lightgrey;
+    margin: auto;
+    width: 90%;
+    min-width: 1200px;
+    max-width: 2000px;
+    height: 100%;
+    padding: 0;
+}
+
+a {
+    color: white; 
+}
+
+#text1{
+    z-index:100;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 2%;
+}
+
+#intro{
+    z-index:100;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    background:  rgb(22, 38, 67);
+	background-size: cover;
+    height: auto;
+    padding: 2%;
+}
+
+.content-container{
+    background-color: white;
+	padding: 40px 40px;
+	text-align: left;
+	font-size: 20px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.content-title{
+    font-size: 30px;
+    color: rgb(22, 38, 67);
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 1%;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 13px;
+}
+
+.play-button{
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+.play-button-demo{
+    width:100%; 
+    height: auto;
+    display: block; 
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: .65
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+
+a.btn.disabled, fieldset:disabled a.btn {
+    pointer-events: none
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(22, 38, 67);
+    border-color: rgb(22, 38, 67)
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(22, 38, 67);
+    border-color: rgb(22, 38, 67)
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(22, 38, 67, .5)
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: rgb(22, 38, 67);
+    border-color: rgb(22, 38, 67)
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(22, 38, 67);
+    border-color: rgb(22, 38, 67)
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(22, 38, 67, .5)
+}
