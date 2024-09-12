@@ -39,7 +39,7 @@ a {
 
 .container{
     position: relative;
-    background:  rgb(22, 38, 67);
+    background:  rgb(22, 67, 35);
 	background-size: cover;
     height: auto;
     padding: 2%;
@@ -56,7 +56,7 @@ a {
 
 .content-title{
     font-size: 30px;
-    color: rgb(22, 38, 67);
+    color: rgb(22, 67, 35);
     text-align: center;
     padding-bottom: 20px;
     font-weight: bold;
@@ -84,69 +84,6 @@ th {
     font-size: 13px;
 }
 
-.play-button{
-    width: 100%; 
-    height: auto;
-    display: block; 
-}
-
-.play-button-demo{
-    width:100%; 
-    height: auto;
-    display: block; 
-}
-
-.btn:focus, .btn:hover {
-    text-decoration: none
-}
-
-.btn.focus, .btn:focus {
-    outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
-}
-
-.btn.disabled, .btn:disabled {
-    opacity: .65
-}
-
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer
-}
-
-a.btn.disabled, fieldset:disabled a.btn {
-    pointer-events: none
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: rgb(22, 38, 67);
-    border-color: rgb(22, 38, 67)
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: rgb(22, 38, 67);
-    border-color: rgb(22, 38, 67)
-}
-
-.btn-primary.focus, .btn-primary:focus {
-    box-shadow: 0 0 0 .2rem rgba(22, 38, 67, .5)
-}
-
-.btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
-    background-color: rgb(22, 38, 67);
-    border-color: rgb(22, 38, 67)
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: rgb(22, 38, 67);
-    border-color: rgb(22, 38, 67)
-}
-
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(22, 38, 67, .5)
+audio {
+    width: 100px;
 }
